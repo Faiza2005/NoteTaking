@@ -1,3 +1,7 @@
+<?php
+header("Content-type: text/css");
+?>
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 body {
@@ -7,7 +11,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 /* Navbar */
 .navbar {
@@ -25,8 +28,6 @@ body {
   justify-content: space-between;
 }
 
-
-/* Row 1 */
 .row1 .logo {
   font-size: 2.4rem;
   font-weight: bold;
@@ -34,7 +35,7 @@ body {
 }
 
 .row1 .logo span {
-  color: var(--orange);
+  color: #00a82d;
 }
 
 .search-bar-container input {
@@ -68,8 +69,6 @@ body {
   border-radius: 5px;
 }
 
-
-/* Dropdown Styles */
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -88,7 +87,7 @@ body {
 }
 
 .dropdown-menu li {
-  padding: 0; 
+  padding: 0;
 }
 
 .dropdown-menu a {
@@ -97,7 +96,6 @@ body {
   color: #333;
 }
 
-/* Right section  sign in */
 .nav-links select {
   padding: 5px 10px;
   border-radius: 5px;
@@ -111,7 +109,6 @@ body {
   border-radius: 20px;
   cursor: pointer;
 }
-
 
 .welcome-container {
   display: flex;
@@ -200,7 +197,6 @@ body {
   border-color: #00a82d;
 }
 
-
 .note-content {
   opacity: 0;
   visibility: hidden;
@@ -228,7 +224,6 @@ body {
   border-radius: 10px;
 }
 
-
 .dashboard-section {
   background: cornsilk;
   padding: 3rem 2rem;
@@ -246,9 +241,8 @@ body {
 .dashboard-card .icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #00a82d; 
+  color: #00a82d;
 }
-
 
 .footer {
   background: #f9f9f9;
@@ -302,5 +296,3 @@ body {
   color: #00a82d;
   font-weight: 600;
 }
-
-
